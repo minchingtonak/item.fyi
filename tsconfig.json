@@ -21,9 +21,9 @@
     "paths": {
       "react": ["./node_modules/preact/compat/"],
       "react-dom": ["./node_modules/preact/compat/"]
-    }
+    },
   },
   "exclude": ["node_modules"],
-  "include": ["./src/**/*"],
+  "include": ["./src/**/*", "./scripts/**/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
