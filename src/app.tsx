@@ -41,7 +41,7 @@ export function App() {
             class="flex justify-center items-center p-1 m-1 border-[1px] border-slate-800 w-1/2 h-40"
             href={item.url}
           >
-            <img class="object-contain w-full" src={item.sprite} />
+            <img class="object-scale-down" src={item.sprite} />
           </a>
           <div class="flex flex-col items-center gap-y-1">
             <span>From: {item.game}</span>
